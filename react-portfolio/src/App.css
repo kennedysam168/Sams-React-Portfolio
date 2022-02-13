@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(0, 0, 0);
+  
+}
+
+@font-face {
+  font-family: 'Rocksalt';
+  src: url(./RockSalt-Regular.ttf);
+}
+
+
+.background-design {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background: url(/Users/samkennedy/Desktop/React-Portfolio/src/wood-ring-GIF.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.section1 {
+  align-items: center;
+  text-align: center;
+  width: 100% !important;
+}
+
+.bg-light {
+  height: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14%;
+  border-radius: 5px;
+  box-shadow: 6px 8px 8px rgb(112, 114, 124);
+  display: flex;
+  background-color: rgb(242, 250, 242) !important;
+}
+
+.container-fluid {
+  text-align: center;
+  padding: auto;
+  width: 280px;
+  padding-left: 16px;
+}
+
+.icon-image {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-top: 37px;
+  margin-right: 7px;
+}
+
+.name {
+  color: honeydew;
+  font-family: "Rocksalt";
+  font-size: 34px;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+.nav-link.active {
+  color: rgb(0, 0, 0) !important;
+  font-size: 17px;
+}
+
+.nav-item {
+  display: inline;
+  color: rgb(0, 0, 0) !important;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  padding-left: 0px;
+  padding-right: 15px;
+}
